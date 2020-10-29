@@ -45,7 +45,7 @@ public class Rabbit implements Runnable {
             try {
                 Thread.sleep(1500L);
             } catch (InterruptedException e) {
-                System.err.println("The rabbit has lost the path!");
+                System.err.println("The Rabbit has lost the path!");
             }
         }
         JOptionPane.showConfirmDialog(
